@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super mooie website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container grid">
+        <!-- Bovenste rij (3 kolommen: 3 + 6 + 3 = 12) -->
+        <header class="box col-span-3"></header>
+        <header class="box col-span-6">Super mooie website</header>
+        <header class="box col-span-3"></header>
+
+        <!-- Middelste rij: Navigatie links (3 kolommen) en Hoofdinhoud rechts (9 kolommen) -->
+        <nav class="box col-span-3 sidebar">
+            <ul>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#uitleg">Uitleg</a></li>
+                <li><a href="#conclusie">Conclusie</a></li>
+            </ul>
+        </nav>
+
+        <main class="box col-span-9 content">
+            <section id="intro">
+                <h2>Intro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorum voluptatum praesentium totam iste numquam! Unde labore, ullam necessitatibus magni quam qui neque libero! Quia nisi obcaecati aspernatur? Eveniet, vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorum voluptatum praesentium totam iste numquam! Unde labore, ullam necessitatibus magni quam qui neque libero! Quia nisi obcaecati aspernatur? Eveniet, vel!</p>
+            </section>
+
+            <hr>
+
+            <section id="uitleg">
+                <h2>Uitleg</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorum voluptatum praesentium totam iste numquam! Unde labore, ullam necessitatibus magni quam qui neque libero! Quia nisi obcaecati aspernatur? Eveniet, vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorum voluptatum praesentium totam iste numquam! Unde labore, ullam necessitatibus magni quam qui neque libero! Quia nisi obcaecati aspernatur? Eveniet, vel!</p>
+            </section>
+
+            <hr>
+
+            <section id="conclusie">
+                <h2>Conclusie</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorum voluptatum praesentium totam iste numquam! Unde labore, ullam necessitatibus magni quam qui neque libero! Quia nisi obcaecati aspernatur? Eveniet, vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorum voluptatum praesentium totam iste numquam! Unde labore, ullam necessitatibus magni quam qui neque libero! Quia nisi obcaecati aspernatur? Eveniet, vel!</p>
+            </section>
+        </main>
+
+        <!-- Onderste rij (4 gelijke kolommen: 3 + 3 + 3 + 3 = 12) -->
+        <footer class="box col-span-3">Over ons</footer>
+        <footer class="box col-span-3">Geschiedenis</footer>
+        <footer class="box col-span-3">Contact</footer>
+        <footer class="box col-span-3">Socials</footer>
+    </div>
+
+</body>
+</html>
